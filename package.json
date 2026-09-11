@@ -1,0 +1,16 @@
+{
+  "name": "deriv-token-proxy",
+  "version": "1.0.0",
+  "description": "Tiny backend that performs the server-side half of Deriv's OAuth2 + PKCE code exchange for Dollar.com.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
